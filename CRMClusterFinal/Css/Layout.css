@@ -1,0 +1,540 @@
+﻿html, body, div, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11pt;
+    color: #333;
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid rgba(0,0,0, 0.2);
+    border-right: 1px solid rgba(0,0,0, 0.2);
+   /* box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.2); */
+
+    
+}
+
+header, nav, main, footer  {
+    overflow:hidden;
+}
+
+header {
+    clear:both;
+}
+
+#header_left {
+    float:left;
+}
+
+.header_center{
+
+float:left;
+border:1px solid red;
+
+}
+
+#header_right {
+    float:right;
+}
+
+#logotype {
+    width: 200px;
+    height: 100px;
+    background-image:url("../images/logotype.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left:40px;
+    
+   
+
+}
+
+#login {
+    height: 60px;
+    margin: 20px 20px 20px 0px;
+    text-align: right;
+}
+
+#loggedin_as {
+    font-size:9pt;
+    color:#999;
+}
+
+#login_menu {
+    margin-top:15px;
+    
+}
+
+#settings {
+    float:left;
+    text-align:right;
+    font-size:10pt;
+    margin-top:8px;
+}
+
+#login_button {
+    float:right;
+    margin-top:30px;
+    margin-right:35px;
+}
+
+.blue_button {
+    background-color: #EE1313;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    font-size:10pt;
+    -webkit-transition-duration: 0.4s; /* används för Safari - för "Apple-sekten" */
+    transition-duration: 0.4s; /* används för alla andra bra webbläsare :P */
+     border-radius: 2px;
+}
+
+.blue_button:hover {
+    background-color: #860C0C;
+    color:#fff;
+    cursor:pointer;
+}
+
+nav {
+    background-color: #00435E;
+    color: rgb(46,46,30);
+    clear:both;
+    min-height: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position:relative;
+    margin-bottom: -23px;
+}
+
+nav ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+
+}
+
+#nav_left{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;  
+    float:left;
+
+}
+
+
+#nav_right{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    float:right;
+    
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 5px 15px 5px;
+    border-bottom: 2px solid transparent;
+        -webkit-transition: all 0.12s ease-in-out;
+    -moz-transition: all 0.12s ease-in-out;
+    -o-transition: all 0.12s ease-in-out;
+    transition: all 0.12s ease-in-out;
+
+}
+
+nav li:hover{
+    border-bottom: 2px solid #fff;
+    background-color: rgba(22,86,112,0.98)
+}
+
+
+
+
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size:12px;
+    
+    
+}
+
+
+
+
+main {
+    min-height: 486px;
+    clear:both;
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+
+
+.main_content{
+ 
+    /*background-color:#999;*/
+    width: 100%;
+    min-height: 200px;
+    margin-top:70px;
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+}
+
+iframe {
+    width:100%;
+    height:600px;
+    margin:20px 0px 20px 0px;
+
+}
+
+
+section {
+    clear:both;
+    stop-opacity:initial;
+}
+
+
+
+#form_content{
+    padding-top:50px;
+}
+
+
+#left_formside{
+    padding-top: 10px;
+    overflow:hidden;
+    margin-top:50px;
+    margin-left:350px;
+ 
+
+}
+
+#right_formside{
+    padding-top: 10px;
+    overflow:hidden;
+    float:left;
+    margin-top:50px;
+
+
+}
+
+#GridView1 {
+    margin: 0px 20px 20px 80px;    
+    float:left;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 20px 20px 20px 20px;
+    color:#F3E5D7;
+    
+
+}
+
+#GridView2 {
+       margin: 0px 110px 20px 30px;       
+       float:left;
+       background-color: rgba(0,0,0, 0.5);
+       padding: 20px 20px 20px 20px;
+       color:#F3E5D7;
+
+    
+       
+}
+#gvCompany {
+    border: 0px solid #F3E5D7;
+    color:#F3E5D7;
+   
+}
+
+#gvService {
+    border: 1px solid #F3E5D7;
+    color:#F3E5D7;
+}
+
+.formtable td {
+    padding-bottom:10px;
+    color:#fff6f6;
+}
+
+.formlabel {
+    width:120px;
+}
+
+.forminput {
+    width:200px;
+}
+
+.formconfirm {
+    width:300px;
+}
+
+.formsubmit {
+
+    text-align: right;
+}
+
+#Confirm_Register {
+    margin-top:30px;
+}
+
+#tbZipCode {
+    width: 50px;
+    margin-right:10px;
+}
+
+#tbCity {
+    width: 100px;
+}
+
+.content {
+    padding: 0px 40px 20px 40px;
+    border: 0px solid #000;
+    overflow:hidden;
+}
+
+#form_content {
+    padding: 0px 0px 20px 0px;
+    border: 0px solid red;
+    height:400px;
+}
+
+
+#left_formside {
+    float:left;
+    margin-right:30px;
+    border: 0px solid #000;
+   
+     
+}
+
+#right_formside {
+    float: left;
+    border: 0px solid #000;
+     
+}
+
+#bottom_formside{
+    padding: 0px 0px 20px 0px;
+    border: 0px solid red;
+    margin-left:680px;
+
+}
+
+
+footer {
+    background-color: #13151A;
+    height: 22px;
+    padding-top: 10px;
+    padding-left: 55px;
+    clear:both;
+
+}
+
+#copyright {
+    color: rgb(225,225,209);
+    font-size:9pt;
+}
+
+#Login {
+    padding-top:100px;
+    text-align:center;
+}
+
+#loginsection {
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;  
+    
+   
+}
+
+#loginbox {
+    
+    padding-top: 10px;
+    padding-bottom: 20px;
+    overflow:hidden;
+    background-color: rgba(0,0,0, 0.5);
+    height: 260px;
+    
+}
+
+
+
+.logininput {
+    margin-top:15px;
+}
+
+.tbstyle {
+   height:25px;
+   width: 220px;
+    padding-left:10px;
+    border-radius: 2px;
+}
+
+#loginbutton {
+    margin-top:25px;
+    
+}
+
+.longbtn {
+    width:232px;
+}
+
+#loginreset {
+     margin-top:15px;
+    font-size:9pt;   
+}
+
+#loginreset a {
+    text-decoration: none;
+    color: rgb(0,139,193);
+        
+}
+
+#loginreset a:hover {
+    text-decoration: none;
+    color: rgb(0,69,96);
+        
+}
+
+#loginlinks {
+    margin-top:15px;
+    font-size:9pt;
+}
+
+#loginlinks a {
+    text-decoration: none;
+    color: rgb(0,139,193);
+        
+}
+
+#loginlinks a:hover {
+    text-decoration: none;
+    color: rgb(0,69,96);
+        
+}
+
+#loginerror {
+    color: red;
+    font-size: 9pt;
+    padding-top:10px;
+}
+
+#Section_Settings {
+    padding-top: 40px;
+    overflow:hidden;
+    clear:both;
+}
+
+.content_wrapper {
+    overflow:hidden;
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear:both;
+}
+
+/*.content_left {
+    width: 50%;
+    float:left;
+    overflow:hidden;
+}*/
+#personal_info {
+  background-color: rgba(0,0,0, 0.5);
+  padding: 20px 20px 20px 20px;
+
+
+}
+
+#user_info{
+  background-color: rgba(0,0,0, 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+#case_info{
+  background-color: rgba(0,0,0, 0.5);
+  padding: 20px 20px 10px 20px;
+}
+
+/*.content_right {
+    width: 50%;
+    float:left;
+    overflow:hidden;
+
+}*/
+
+.content_wide {
+    width: 100%;
+    overflow:hidden;
+    border: 0px solid #000;
+}
+
+.form_content_row {
+    border: 0px solid #000;
+    overflow:hidden;
+    clear:both;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.form_label {
+    float:left;
+    width:140px;
+    margin-top:5px;
+}
+
+.form_data {
+    float:left;
+    width:220px;
+}
+
+.separator {
+    width: 374px;
+    border-bottom: 2px dotted rgba(0,0,0, 0.2);
+    height:1px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.tbstyle-zipcode {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.tbstyle-city {
+    width: 100px;
+}
+
+.tbstyle-country {
+    height:30px;
+    width: 190px;
+    padding-left:10px;
+}
+
+.form_data_button {
+    float:right;
+    margin-right:70px;
+}
+
+#tbDescription{
+    width:300px;
+    height:230px;
+
+}
+
+textarea {
+   resize: none;
+    padding-left:10px;
+    border-radius: 2px;
+}
